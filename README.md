@@ -3,7 +3,6 @@
 <h1 align="center">👷‍♂️ Lucas Almeida</h1>
 <p align="center">
   <b>Engenharia | Dados | Automação</b><br>
-  São Paulo, Brasil 🇧🇷
 </p>
 
 ---
@@ -43,6 +42,3 @@ Sou Tecnólogo em Edifícios que migrou da prancheta para os dados. Integro enge
 - Integração Python + APIs de geolocalização
 - Técnicas de automação para modelagem paramétrica em projetos
 
----
-
-🌱 *"Não existe dado inútil, só falta contexto."*  
