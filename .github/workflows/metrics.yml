@@ -1,0 +1,19 @@
+name: Metrics
+on:
+  schedule: [{ cron: "0 9 * * *" }]   # todo dia, 06h em João Pessoa
+  workflow_dispatch:                    # botão "Run workflow" pra rodar na hora
+
+jobs:
+  isocalendar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_timezone: America/Fortaleza
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
